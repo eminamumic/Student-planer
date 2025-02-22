@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Planner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>📚 Student Planner</h1>
+      <ul>
+        <li><a href="#schedule">Sedmični Raspored</a></li>
+        <li><a href="#todo">To-Do Lista</a></li>
+        <li><a href="#subjects">Predmeti</a></li>
+        <li><a href="bilješke.html">Bilješke</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="schedule">
+        <h2>📆 Sedmični Raspored</h2>
+        <form id="schedule-form">
+          <input type="text" id="schedule-day" placeholder="Unesite dan..." />
+          <input
+            type="text"
+            id="schedule-time"
+            placeholder="Unesite vrijeme..."
+          />
+          <input
+            type="text"
+            id="schedule-subject"
+            placeholder="Unesite predmet"
+          />
+          <button id="schedule-btn">Dodaj</button>
+        </form>
+        <div id="schedule-table"></div>
+      </section>
+
+      <section id="todo">
+        <h2>✅ To-Do Lista</h2>
+        <input
+          type="text"
+          id="input-todo"
+          placeholder="Dodaj novi zadatak..."
+        />
+        <button id="todo-btn">Dodaj</button>
+        <button id="todo-clear-btn">Obriši sve</button>
+        <ul id="todo-list"></ul>
+      </section>
+
+      <section id="subjects">
+        <h2>📖 Popis Predmeta</h2>
+        <form id="subjects-form">
+          <input
+            type="text"
+            id="subject-name"
+            placeholder="Naziv predmeta..."
+          />
+          <input
+            type="text"
+            id="subject-teacher"
+            placeholder="Ime i prezime profesora..."
+          />
+          <input type="text" id="subject-classroom" placeholder="Učionica..." />
+          <button id="subject-btn">Dodaj</button>
+        </form>
+        <div id="subject-table"></div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="toDo.js"></script>
+    <script src="notes.js"></script>
+  </body>
+</html>

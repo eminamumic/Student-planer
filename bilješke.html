@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>📚 Student Planner</h1>
+      <ul>
+        <li><a href="index.html#schedule">Sedmični Raspored</a></li>
+        <li><a href="index.html#todo">To-Do Lista</a></li>
+        <li><a href="index.html#subjects">Predmeti</a></li>
+        <li><a href="bilješke.html">Bilješke</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="notes">
+        <h2>📝 Bilješke</h2>
+        <form id="notes-form">
+          <input type="text" id="notes-title" placeholder="Unesite naslov..." />
+          <textarea
+            id="notes-content"
+            placeholder="Unesite bilješke..."
+          ></textarea>
+          <div id="notes-buttons">
+            <button id="notes-btn">Dodaj</button>
+            <button id="notes-clear-btn">Obriši sve</button>
+          </div>
+        </form>
+        <ul id="notes-list"></ul>
+      </section>
+    </main>
+  </body>
+</html>
