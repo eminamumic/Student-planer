@@ -17,3 +17,5 @@
 - **LocalStorage**: Store tasks and data locally in the browser.
 
 ## Screenshots
+
+![Quiz Avatar](https://i.imgur.com/wFtG8jS.png)
