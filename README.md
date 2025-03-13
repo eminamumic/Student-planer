@@ -1,6 +1,7 @@
 # Student Planner
 
 **Student Planner** is a simple web application designed to help students organize and manage their tasks, courses, and deadlines efficiently. It provides an intuitive interface to keep track of assignments, exams, and other academic obligations.
+### **Note**: This project is currently in its early stages and is a work in progress. It represents a basic sketch and beginning of development.
 
 ## Features
 
